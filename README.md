@@ -1,8 +1,8 @@
 <h1>Máster en Desarrollo FullStack y Blockchain de ConquerBlocks</h1>
 
-<h2>Repositorio creado para el módulo de HTML</h2>
+<h2>Repositorio creado para el módulo de CSS</h2>
 
-<img width="450px" src="00_indice_modulo/portada.jpg" alt="Portada del módulo de HTML" />
+<img width="450px" src="00_indice_modulo/portada.jpg" alt="Portada del módulo de CSS" />
 
 
 <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="CSS">
