@@ -10,7 +10,7 @@
 <ul>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/00_indice_modulo/CSS%20-%20Contenidos.pdf">Índice de contenidos del módulo</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2000%20-%20Presentaci%C3%B3n/CSS%20Clase%2001%20-%20Introducci%C3%B3n%20a%20CSS.pdf">CSS Clase 01 - Introducción a CSS</a></li>
-    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2002%20-%20Unidades%20de%20medida%20en%20CSS/CSS%20Clase%2002%20-%20Unidades%20de%20medida.pdf"></a>CSS Clase 02 - Unidades de medida</a></li>
-    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2003%20-%20Tipos%20de%20etiqueta%20y%20CSS%20del%20navegador/CSS%20Clase%2003%20-%20Tipos%20de%20etiqueta%20y%20CSS%20del%20navegador%20(Diapositivas).pdf"></a>CSS Clase 03 - Tipos de etiqueta y CSS del navegador</a></li>
-    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2004%20-%20Cascada%20y%20prioridad/CSS%20Clase%2004%20-%20Cascada%20y%20especificaci%C3%B3n.pdf"></a></a>CSS Clase 04 - Cascada y prioridad</a></li>
+    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2002%20-%20Unidades%20de%20medida%20en%20CSS/CSS%20Clase%2002%20-%20Unidades%20de%20medida.pdf">CSS Clase 02 - Unidades de medida</a></li>
+    <li><CSS target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2003%20-%20Tipos%20de%20etiqueta%20y%20CSS%20del%20navegador/CSS%20Clase%2003%20-%20Tipos%20de%20etiqueta%20y%20CSS%20del%20navegador%20(Diapositivas).pdf">CSS Clase 03 - Tipos de etiqueta y CSS del navegador</a></li>
+    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2004%20-%20Cascada%20y%20prioridad/CSS%20Clase%2004%20-%20Cascada%20y%20especificaci%C3%B3n.pdf">CSS Clase 04 - Cascada y prioridad</a></li>
 </ul>
