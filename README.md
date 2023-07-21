@@ -13,4 +13,5 @@
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2002%20-%20Unidades%20de%20medida%20en%20CSS/CSS%20Clase%2002%20-%20Unidades%20de%20medida.pdf">CSS Clase 02 - Unidades de medida</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2003%20-%20Tipos%20de%20etiqueta%20y%20CSS%20del%20navegador/CSS%20Clase%2003%20-%20Tipos%20de%20etiqueta%20y%20CSS%20del%20navegador%20(Diapositivas).pdf">CSS Clase 03 - Tipos de etiqueta y CSS del navegador</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2004%20-%20Cascada%20y%20prioridad/CSS%20Clase%2004%20-%20Cascada%20y%20especificaci%C3%B3n.pdf">CSS Clase 04 - Cascada y prioridad</a></li>
+    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2005%20-%20Selectores%20I/CSS%20Clase%2005%20-%20Selectores%20I.pdf">CSS Clase 05 - Selectores I</a></li>
 </ul>
