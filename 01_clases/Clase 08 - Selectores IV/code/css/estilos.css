@@ -1,0 +1,26 @@
+/* Selectores II */
+/* 1 Selecciona los elementos div que sean hijos de otro div  */
+/* 2 Selecciona los hijos de los elementos p */
+/* 3 Selecciona los elementos p que sean hijos de article */
+/* 4 Selecciona los p que esten dentro de un article */
+/* 5 Selecciona los titulos h1 y los h3 */
+/* 6 Selecciona los ol que esten dentro de body */
+/* 7 Cualquier elemento que tenga la clase “amarillo” */
+/* 8 Los elementos <ul> que sean hijos de <body */
+/* 9 Los elementos <a> que sean hijos de <p> */
+/* 10 Selecciona el elemento con id “platano” */
+/* 11 Todos los elementos <div> que sean hermanos de un elemento <h2> */
+/* 12 Todos los elementos <p> con clase = paisa, descendientes de un elemento <ul> */
+/* 13 Selecciona los <h1>, <h2>, <h3>  que tengan la clase "headertitle", hijos del header */
+
+/* Selectores III */
+/* 1 El primer elemento <a> hijo de <p> */
+/* 2 Selecciona los checkbox que estén marcados, hijos de un <form>  */
+/* 3 Selecciona el último <p> que sea descendiente de <article> */
+/* 4 Seleccionar el segundo hijo de un elemento section */
+/* 5 Seleccionar los hijos pares de un elemento ol */
+/* 6 Seleccionar el antepenúltimo li de un ul de longitud indefinida */
+/* 7 El segundo <a> de dentro de un <p> */
+/* 8 Los button que sean hijos únicos */
+/* 9 Los span que sean primeros hijos de un p */
+/* 10 Penúltimo hijo de body */
