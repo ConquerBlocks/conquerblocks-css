@@ -15,4 +15,5 @@
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2004%20-%20Cascada%20y%20prioridad/CSS%20Clase%2004%20-%20Cascada%20y%20especificaci%C3%B3n.pdf">CSS Clase 04 - Cascada y prioridad</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2005%20-%20Selectores%20I/CSS%20Clase%2005%20-%20Selectores%20I.pdf">CSS Clase 05 - Selectores I</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2006%20-%20Selectores%20II/CSS%20Clase%2006%20-%20Selectores%20II.pdf">CSS Clase 06 - Selectores II</a></li>
+    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2007%20-%20Selectores%20III/CSS%20Clase%2007%20-%20Selectores%20III.pdf">CSS Clase 07 - Selectores III</a></li>
 </ul>
