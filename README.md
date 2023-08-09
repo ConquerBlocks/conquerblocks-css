@@ -17,6 +17,6 @@
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2006%20-%20Selectores%20II/CSS%20Clase%2006%20-%20Selectores%20II.pdf">CSS Clase 06 - Selectores II</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2007%20-%20Selectores%20III/CSS%20Clase%2007%20-%20Selectores%20III.pdf">CSS Clase 07 - Selectores III</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2008%20-%20Selectores%20IV/CSS%20Clase%2008%20-%20Selectores%20IV.pdf">CSS Clase 08 - Selectores IV</a></li>
-    <li><a target="_blank" href="">CSS Clase 09 - Resolución de ejercicios de Selectores</a></li>
+    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2009%20-%20Resoluci%C3%B3n%20de%20ejercicios%20de%20Selectores/CSS%20Clase%2009%20-%20Ejercicios%20de%20Selectores%20resueltos.pdf">CSS Clase 09 - Resolución de ejercicios de Selectores</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2010%20-%20Texto%20en%20CSS/CSS%20Clase%2010%20-%20Texto%20en%20CSS.pdf">CSS Clase 10 - Texto en CSS</a></li>
 </ul>
