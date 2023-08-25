@@ -1,0 +1,19 @@
+nav.flaticon img {
+  width: 20px;
+}
+
+nav.google a:visited, nav.google a{
+  color: red;
+}
+
+nav.google a:hover {
+  color: purple;
+}
+
+nav.fontawesome i{
+  color: green;
+}
+
+nav.fontawesome i:hover {
+  color: blue;
+}
