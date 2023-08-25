@@ -20,5 +20,8 @@
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2009%20-%20Resoluci%C3%B3n%20de%20ejercicios%20de%20Selectores/CSS%20Clase%2009%20-%20Ejercicios%20de%20Selectores%20resueltos.pdf">CSS Clase 09 - Resolución de ejercicios de Selectores</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2010%20-%20Texto%20en%20CSS/CSS%20Clase%2010%20-%20Texto%20en%20CSS.pdf">CSS Clase 10 - Texto en CSS</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2011%20-%20Texto%20en%20CSS%202/CSS%20Clase%2011%20-%20Texto%20en%20CSS%202.pdf">CSS Clase 11 - Texto en CSS II</a></li>
-    <li>CSS Clase 12 - Tipografías en CSS</li>
+    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2011%20-%20Texto%20en%20CSS%202/CSS%20Clase%2011%20-%20Texto%20en%20CSS%202.pdf">CSS Clase 11 - Texto en CSS II</a></li>
+    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2012%20-%20Tipograf%C3%ADas%20en%20CSS/CSS%20Clase%2012%20-%20Tipograf%C3%ADas%20en%20CSS.pdf">CSS Clase 12 - Tipografías en CSS</a></li>
+    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2013%20-%20Iconos%20tipogr%C3%A1ficos/CSS%20Clase%2013%20-%20Iconos%20tipogr%C3%A1ficos.pdf">CSS Clase 13 - Iconos tipográficos</a></li>
+    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2014%20-%20Modelo%20de%20cajas/CSS%20Clase%2014%20-%20Modelo%20de%20cajas.pdf">CSS Clase 14 - Modelo de caja</a></li>
 </ul>
