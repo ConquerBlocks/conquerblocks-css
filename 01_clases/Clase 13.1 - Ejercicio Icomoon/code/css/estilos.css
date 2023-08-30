@@ -1,0 +1,144 @@
+nav.flaticon img {
+  width: 20px;
+}
+
+nav.google a:visited, nav.google a{
+  color: red;
+}
+
+nav.google a:hover {
+  color: purple;
+}
+
+nav.fontawesome i{
+  color: green;
+}
+
+nav.fontawesome i:hover {
+  color: blue;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?11kdq6');
+  src: url('../fonts/icomoon.eot?11kdq6#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?11kdq6') format('truetype'),
+    url('../fonts/icomoon.woff?11kdq6') format('woff'),
+    url('../fonts/icomoon.svg?11kdq6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e901";
+}
+
+.icon-exit:before {
+  content: "\ea14";
+}
+
+.icon-facebook:before {
+  content: "\ea90";
+}
+
+.icon-instagram:before {
+  content: "\ea92";
+}
+
+.icon-twitter:before {
+  content: "\ea96";
+}
+
+.icon-youtube:before {
+  content: "\ea9d";
+}
+
+ul.menu a {
+  text-decoration: none;
+  color: purple;
+  opacity: .5;
+  font-size: 2rem;
+}
+
+ul.menu a:hover {
+  opacity: 1;
+}
+
+ul.menu a:visited {
+  color: purple;
+}
+
+
+@font-face {
+  font-family: 'icomoon-custom';
+  src: url('../fonts/icomoon-custom.eot?t7d7qm');
+  src: url('../fonts/icomoon-custom.eot?t7d7qm#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon-custom.ttf?t7d7qm') format('truetype'),
+    url('../fonts/icomoon-custom.woff?t7d7qm') format('woff'),
+    url('../fonts/icomoon-custom.svg?t7d7qm#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="iconcustom-"],
+[class*=" iconcustom-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon-custom' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconcustom-icon-custom:before {
+  content: "\e902";
+}
+
+.iconcustom-facebook:before {
+  content: "\e900";
+}
+
+.iconcustom-home:before {
+  content: "\e901";
+}
+
+.iconcustom-youtube-square:before {
+  content: "\e903";
+}
+
+.iconcustom-exit:before {
+  content: "\e904";
+}
+
+ul.menu2 a {
+  text-decoration: none;
+  color: purple;
+}
+
+ul.menu2 a:visited {
+  color: purple;
+}

@@ -1,0 +1,113 @@
+.ejercicio1.caja1 {
+  border: 5px solid red;
+  width: 250px;
+  height: 200px;
+  background-color: #ccc;
+  padding: 10px;
+  margin: 25px;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+.ejercicio1.caja2 {
+  width: 300px;
+  height: 200px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: green;
+  background-color: #8a8a8a;
+  color: white;
+  font-size: 20px;
+  line-height: 1.5em;
+  padding: 5px;
+  margin: 0;
+}
+
+
+.ejercicio2.contenedor{
+  border: 5px solid red;
+  padding: 5px;
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+.ejercicio2.caja1 {
+  border: 5px solid green;
+  padding: 10px 0;
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.ejercicio2.caja2 {
+  border: 5px solid blue;
+  width: 50%;
+  margin-left: 50px;
+  margin-top: 10px;
+  padding: 10px 0;
+}
+
+.ejercicio2.caja3{
+  border: 5px solid orange;
+  margin-top: 10px;
+  margin-left: 100px;
+  width: 50%;
+}
+
+
+.ejercicio3.caja1 {
+  border: 5px solid red;
+  margin-bottom: 10px;
+}
+
+.ejercicio3.caja2 {
+  border: 5px solid blue;
+  padding: 25px;
+  margin-bottom: 10px;
+}
+
+.ejercicio3.caja3 {
+  padding: 50px;
+  border: 5px solid green;
+}
+
+
+.ejercicio4.caja1 {
+  border-width: 5px;
+
+  border-top-style: dotted;
+  border-top-color: green;
+  border-bottom-style: dotted;
+  border-bottom-color: red;
+
+  border-left-style: dashed;
+  border-right-style: dashed;
+  border-left-color: blue;
+  border-right-color: orange;
+
+  text-align: center;
+  padding: 20px;
+
+  margin-bottom: 10px;
+
+}
+
+.ejercicio4.caja2 {
+  margin-bottom: 10px;
+  border: 5px outset black;
+  border-left-width: 10px;
+  border-right-width: 10px;
+
+  border-bottom-color: pink;
+  border-top-color: cyan;
+  border-right-color: black;
+
+  text-align: center;
+  padding: 20px;
+}
+
+.ejercicio4.caja3 {
+  text-align: center;
+  padding: 10px;
+  border: 2px solid black;
+}
