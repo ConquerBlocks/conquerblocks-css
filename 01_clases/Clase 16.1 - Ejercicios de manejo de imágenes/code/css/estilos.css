@@ -1,0 +1,31 @@
+div.bandera{
+  width:300px;
+  height:200px;
+  margin:20px;
+	border:1px solid #000;
+}
+
+.colombia{
+	background-image:linear-gradient(yellow 33%, blue 33%, blue 66.66%, red 66.66%);
+}
+
+.francia{
+	background-image:linear-gradient(90deg,red 33%, white 33%, white 66.66%, blue 66.66%);
+}
+
+.italia{
+	background-image:linear-gradient(90deg, green 33%, white 33%, white 66.66%, red 66.66%);
+}
+
+.alemania{
+	background-image:linear-gradient(black 33%, red 33%, red 66.66%, yellow 66.66%);
+	color:#fff;
+}
+
+.japon{
+	background-image:radial-gradient(circle, red 33%, white 33%, white);
+}
+
+.polonia{
+	background-image:linear-gradient(white 50%, red 50%, red);
+}
