@@ -1,31 +1,155 @@
-div.bandera{
-  width:300px;
-  height:200px;
-  margin:20px;
-	border:1px solid #000;
+.banderas {
+  background-color: #f2f2f2;
+  border: 1px solid black;
 }
 
-.colombia{
-	background-image:linear-gradient(yellow 33%, blue 33%, blue 66.66%, red 66.66%);
+.banderas div {
+  width: 30%;
+  aspect-ratio: 1.4;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 10px;
 }
 
-.francia{
-	background-image:linear-gradient(90deg,red 33%, white 33%, white 66.66%, blue 66.66%);
+div.colombia {
+  background-image: linear-gradient(
+    yellow 33.3%,
+    blue 33.3%,
+    blue 66.6%,
+    red 66.6%,
+    red 100%
+  )
 }
 
-.italia{
-	background-image:linear-gradient(90deg, green 33%, white 33%, white 66.66%, red 66.66%);
+div.francia{
+  background-image: linear-gradient(
+    to right,
+    red 33.3%,
+    white 33.3%,
+    white 66.6%,
+    blue 66.6%,
+    blue 100%
+  );
 }
 
-.alemania{
-	background-image:linear-gradient(black 33%, red 33%, red 66.66%, yellow 66.66%);
-	color:#fff;
+div.italia {
+  background-image: linear-gradient(to right,
+        green 33.3%,
+        white 33.3%,
+        white 66.6%,
+        red 66.6%,
+        red 100%);
 }
 
-.japon{
-	background-image:radial-gradient(circle, red 33%, white 33%, white);
+div.alemania {
+  background-image: linear-gradient(
+      black 33.3%,
+      red 33.3%,
+      red 66.6%,
+      yellow 66.6%,
+      yellow 100%
+  );
 }
 
-.polonia{
-	background-image:linear-gradient(white 50%, red 50%, red);
+div.polonia {
+  background-image: linear-gradient(
+      white 50%,
+      red 50%,
+      red 100%);
+}
+
+div.japon {
+  background-image: radial-gradient(circle, red 35%, white 35%, white 100%);
+}
+
+
+
+
+.myHeader {
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 20px 10px;
+  background-color: #4f83e3;
+  background-image: url(../img/balloons.jpg);
+  background-position: top right;
+  background-size: 100%;
+  width: 350px;
+}
+
+.myHeader h2 {
+  background-color: rgba(0,0,0,.5);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.myHeader2 {
+  width: 150px;
+  border: 5px solid #8cb0f3;
+  padding: 30px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../img/star.png), url(../img/star.png), url(../img/star.png), url(../img/star.png);
+  background-repeat: no-repeat;
+  background-position: 5px 50%, 95% 50%, 95% 25%, 95% 75%;
+  background-size: 25px, 25px, 25px, 25px;
+}
+
+.myHeader2 h2 {
+  text-align: center;
+  margin: 0;
+
+}
+
+
+.paginate {
+  background-color: #d0cccc98;
+  border: 1px solid #d0ccccf0;
+  padding: 10px;
+}
+
+.paginate span:nth-of-type(2){
+  float: right;
+}
+
+
+.positionExercise {
+  min-height: 80vh;
+  position: relative;
+  background-color: yellow;
+}
+
+.positionExercise .left, .positionExercise .right {
+  width: 300px;
+  padding: 20px;
+  background-color: #ccc;
+  border: 3px dashed black;
+}
+
+.positionExercise .right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+}
+
+.positionExercise footer{
+  position: absolute;
+  bottom:0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: #ccc;
+}
+
+.positionExercise .center {
+  text-align: center;
+  margin-top: 20%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
