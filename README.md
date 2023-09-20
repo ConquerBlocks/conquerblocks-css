@@ -31,4 +31,6 @@
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2016.1%20-%20Ejercicios%20de%20manejo%20de%20im%C3%A1genes/CSS%20Clase%2016.1%20-%20Ejercicios%20de%20manejo%20de%20im%C3%A1genes%20en%20CSS.pdf">CSS Clase 16.1 - Ejercicios de manejo de imágenes de fondo</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2017%20-%20Posicionamiento%20I/CSS%20Clase%2017%20-%20Posicionamiento%20I.pdf">CSS Clase 17 - Posicionamiento I</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2018%20-%20Posicionamiento%20II/CSS%20Clase%2018%20-%20Posicionamiento%20II.pdf">CSS Clase 18 - Posicionamiento II</a></li>
+    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2019%20-%20Ejercicios%20posicionamiento%20b%C3%A1sico/CSS%20Clase%2019%20-%20Ejercicios%20de%20posicionamiento%20b%C3%A1sico.pdf">CSS Clase 19 - Ejercicios de Posicionamiento básico</a></li>
+    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2020%20-%20Flexbox/CSS%20Clase%2020%20-%20Flexbox.pdf">CSS Clase 20 - Flexbox</a></li>
 </ul>
