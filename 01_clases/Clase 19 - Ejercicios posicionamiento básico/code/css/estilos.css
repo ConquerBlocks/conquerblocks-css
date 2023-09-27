@@ -1,0 +1,206 @@
+.container {
+  width: 500px;
+  height: 300px;
+  background-color: gainsboro;
+  position: relative;
+  padding: 10px;
+}
+
+.rojo{
+  background-color: red;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.azul {
+  background-color: blue;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.amarillo {
+  background-color: yellow;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.verde {
+  background-color: green;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.ejercicio1 .rojo {
+  width: 40%;
+  height: 50px;
+}
+
+.ejercicio1 .azul {
+  width: 40%;
+  height: 50px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.ejercicio1 .amarillo {
+  width: 40%;
+  height: 100px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.ejercicio1 .verde {
+  width: 40%;
+  height: 100px;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+
+.container.ejercicio2 {
+  padding: 0;
+}
+
+.ejercicio2 .rojo {
+  width: 50px;
+  height: 50px;
+}
+
+.ejercicio2 .azul {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.ejercicio2 .amarillo {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.ejercicio2 .verde {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: 3;
+}
+
+
+.ejercicio3 .rojo {
+  width: 40%;
+  height: 80px;
+  position: absolute;
+  top: 60%;
+  right: 25%;
+  z-index: 3;
+}
+
+.ejercicio3 .azul {
+  width: 40%;
+  height: 100px;
+  position: absolute;
+  top: 20px;
+  left: 20%;
+  z-index: 1;
+}
+
+.ejercicio3 .amarillo {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  z-index: 2;
+}
+
+.ejercicio3 .verde {
+  width: 150px;
+  height: 120px;
+  position: absolute;
+  left: 15%;
+  top: 30%;
+  z-index: 2;
+}
+
+.ejercicio4 {
+  font-size: 0;;
+}
+
+
+.ejercicio4 .rojo {
+  display: inline-block;
+  width: 20%;
+  height: 260px;
+
+}
+
+.ejercicio4 .azul {
+  display: inline-block;
+  width: 20%;
+  height: 260px;
+
+}
+
+.ejercicio4 .amarillo {
+  display: inline-block;
+  width: 20%;
+  height: 260px;
+
+}
+
+.ejercicio4 .verde {
+  display: inline-block;
+  width: 20%;
+  height: 260px;
+
+}
+
+
+.ejercicio5 .rojo {
+  width: 80%;
+    height: 50px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.ejercicio5 .azul {
+  width: 15%;
+  height: 260px;
+  position: absolute;
+  top: 25px;
+  left: 20%;
+
+}
+
+.ejercicio5 .amarillo {
+  width: 80%;
+  height: 50px;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+
+}
+
+.ejercicio5 .verde {
+  width: 15%;
+  height: 260px;
+  position: absolute;
+  top: 25px;
+  right: 20%;
+  z-index: 2;
+
+}

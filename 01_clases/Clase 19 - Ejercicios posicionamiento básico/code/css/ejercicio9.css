@@ -1,0 +1,30 @@
+header {
+  border: 1px solid black;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.top-menu {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.top-menu ul {
+  list-style: none;
+}
+
+.top-menu ul li {
+  display: inline-block;
+}
+
+.principal-menu {
+  list-style: none;
+  text-align: right;
+}
+
+.principal-menu ul li {
+  display: inline-block;
+}
