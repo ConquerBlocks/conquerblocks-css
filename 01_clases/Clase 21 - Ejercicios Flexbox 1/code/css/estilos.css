@@ -1,0 +1,137 @@
+header{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1 {
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  padding: 30px 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header nav {
+  background-color: #ccc;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li a{
+  padding: 10px 20px;
+  display: block;
+}
+
+header li a {
+  color: white;
+  text-decoration: none;
+  color: black;
+}
+
+header li a:hover {
+  color: white;
+  background-color: black;
+}
+
+header.ejercicio2 nav ul {
+  justify-content: center;
+}
+
+header.ejercicio3 nav ul {
+  justify-content: space-between;
+}
+
+header.ejercicio4 nav {
+  max-width: 200px;
+}
+
+header.ejercicio4 nav ul {
+  flex-direction: column;
+}
+
+header.ejercicio5 h1 {
+  font-size: 24px;
+  padding: 10px 5px;
+  margin-bottom: 20px;
+}
+
+header.ejercicio5 .imgContainer {
+  display: flex;
+  justify-content: start;
+  background-color: #ccc;
+}
+
+header.ejercicio5 .imgContainer img {
+  max-width: 100px;
+  border: 2px dashed black;
+}
+
+
+header.ejercicio6 h1 {
+  font-size: 24px;
+  padding: 10px 5px;
+  margin-bottom: 20px;
+}
+
+header.ejercicio6 .imgContainer {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  background-color: #ccc;
+  padding: 10px 5px;
+}
+
+header.ejercicio6 .imgContainer img {
+  max-width: 100px;
+  border: 2px dashed black;
+}
+
+header.ejercicio7 h1{
+  font-size: 20px;
+  text-align: right;
+  padding: 10px;
+  font-weight: normal;
+}
+
+.travel {
+  width: 33.33%;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.travel__title{
+  font-size: 14px;
+  text-align: center;
+}
+
+.travel__description {
+  font-size: 12px;
+  text-align: justify;
+}
+
+.travel:first-of-type {
+  background-color: #0095ff;
+}
+
+.travel:nth-of-type(2) {
+  background-color: #00ffcc;
+}
+
+.travel:nth-of-type(3) {
+  background-color: #4098b0;
+}
+
+.travelContainer {
+  display: flex;
+  align-items: stretch;
+}
+
+.travel__img {
+  max-width: 100%;
+  aspect-ratio: 20/9;
+}
