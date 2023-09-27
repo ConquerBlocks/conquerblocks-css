@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header.header {
+  background-color: #B4FF6B;
+}
+
+figure.logo {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+figure.logo img {
+  max-width: 150px;
+}
+
+nav.menu {
+  background-color: #73A345;
+  padding:10px 20px;
+}
+
+nav.menu ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+nav.menu li+li:before {
+  content: ' | ';
+  color: white;
+}
+
+nav.menu ul a {
+  color: white;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+section.hero img{
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+article.bookingoption {
+  padding: 20px;
+  border: 3px solid black;
+  margin-bottom: 30px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+article.bookingoption h2 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.bookingoption i {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+article.bookingoption p {
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.bookingoption.rural {
+  border-color: #B79B34;
+  background-color: #FDFCB7;
+}
+
+.bookingoption.rural i {
+  color: #B79B34;
+}
+
+.bookingoption.camping {
+  border-color: #79A24A;
+  background-color: #D3FFAC;
+}
+
+.bookingoption.camping i {
+  color: #79A24A;
+}
+
+.bookingoption.hotel {
+  border-color: #0C356F;
+  background-color: #B8E3FF;
+}
+
+.bookingoption.hotel i {
+  color: #0C356F;
+}
+
+aside.review {
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  background-color: #CCCCCC;
+  padding: 30px;
+}
+
+aside.review article {
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+
+aside.review h2 {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #6E6E6E;
+}
+
+aside.review header {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+aside.review i.fa-user {
+  font-size: 30px;
+}
+
+aside.review i.fa-star {
+  color: white;
+}
+
+aside.review i.fa-star:hover {
+  color: black;
+  cursor: pointer;
+}
+
+aside.review p {
+  font-size: 12px;
+  color: #6E6E6E;
+}
