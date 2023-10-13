@@ -1,0 +1,79 @@
+/*
+Grilla de imágenes
+repeat(auto-fit, minmax(200px, 1fr))
+linear-gradient(to var(--direction, left), var(--yellow), transparent)
+  <p>🌮</p>
+  <p>🍺</p>
+  <p>🍷</p>
+  <p>🎵</p>
+  <img src="https://source.unsplash.com/random/201x201" alt="">
+*/
+
+
+.bigGrid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+  background-image: url("../img/topography.svg"), linear-gradient(to right, #E04E6E, #804ABC);
+  padding: 10px;
+}
+
+[class^="box-"]{
+  background-color: #F6C844;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 8px solid rgba(0,0,0,.1);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-6{
+  background-color: #6F94E6;
+  grid-column: 1 / span 6;
+  grid-row: 2 / span 1;
+}
+
+.box-8{
+  background-color: #ED6D52;
+  grid-column: span 2;
+}
+
+.box-9, .box-27 {
+  background-color: #AFF8A2;
+  grid-row: span 2;
+}
+
+.box-12 {
+  background-color: #6F94E6;
+  grid-column: 1 / span 6;
+  grid-row: 3 / span 1;
+}
+
+.box-16 {
+  background-color: #ED6D52;
+  grid-column: span 2;
+}
+
+.box-18 {
+  background-color: #A5CC4F;
+  grid-column: 5 / span 6;
+  grid-row: 4 / span 2;
+}
+
+.box-24 {
+  background-color: #ED6D52;
+  grid-column: span 2;
+}
+
+.box-30 {
+  background-color: #6F94E6;
+  grid-column: span 6;
+}
+
+.box-32 {
+  background-color: #ED6D52;
+  grid-column: span 2;
+}
