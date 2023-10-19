@@ -1,0 +1,158 @@
+table.example1{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+table.example1, table.example1 td, table.example1 th{
+  border: 0;
+  border-spacing: 0;
+}
+
+table.example1 td, table.example1 th{
+  padding: 15px 70px;
+  text-align: center;
+  font-weight: normal;
+}
+
+table.example1 thead {
+  background-color: black;
+  color: white;
+}
+
+table.example1 tbody tr:nth-child(odd) {
+  background-color: #EEEEEE;
+}
+
+
+table.example3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-spacing: 0;
+    border: 2px solid black;
+}
+
+table.example3 thead{
+  background: #333333;
+  color: white;
+  text-transform: uppercase;
+}
+
+table.example3 td,
+table.example3 th {
+  padding:10px 15px;
+}
+
+table.example3 tbody tr:nth-child(even){
+  background-color: #EEEEEE;
+}
+
+table.example3 tbody tr:nth-child(even) th {
+  background-color: #3F65C5;
+  color: white;
+}
+
+table.example3 tbody tr:nth-child(odd) th {
+  background-color: #2F54C5;
+  color: white;
+}
+
+table.example3 td {
+  text-align: center;
+}
+
+table.example3 td.hight {
+  background-color: #F9D949;
+  font-weight: bold;
+}
+
+table.example5 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-spacing: 0;
+}
+
+table.example5 thead th {
+  font-weight: normal;
+}
+
+table.example5 td, table.example5 th{
+  padding: 20px 50px;
+  font-size: 12px;
+}
+
+table.example5 tbody tr:nth-child(odd) {
+  background-color: #EDEDED;
+}
+
+table.example5 a.btn {
+  background-color: #ccc;
+  display: inline-block;
+  padding: 10px 15px;
+  color: black;
+  text-decoration: none;
+  border-radius: 2px;
+  font-size: 10px;
+}
+
+table.example5 a.btn.btn--progress {
+  background-color: #53A551;
+  color: white;
+}
+
+table.example5 a.btn.btn--progress:hover {
+  background-color: #295328;
+}
+
+table.example5 a.btn.btn--open {
+  background-color: #F6C344;
+  color: black;
+}
+
+table.example5 a.btn.btn--open:hover {
+  background-color: #886c24;
+}
+
+table.example5 a.btn.btn--hold {
+  background-color: #CB444A;
+  color: white;
+}
+
+table.example5 a.btn.btn--hold:hover {
+  background-color: #6d2528;
+}
+
+
+
+table.example7 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-spacing: 0;
+  border: 1px solid #5F13EF;
+}
+
+table.example7 thead th {
+  font-weight: normal;
+  background-color: #5F13EF;
+  color: white;
+}
+
+table.example7 td,
+table.example7 th {
+  padding: 20px 50px;
+  font-size: 12px;
+  text-align: center;
+}
+
+table.example7 a.btn {
+  background-color: #5F13EF;
+  display: inline-block;
+  padding: 8px 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+table.example7 tbody th {
+  background-color: #E9EBF7;
+}
+
+table.example7 tbody td:nth-child(2n+1){
+  background-color: #F4F6FB;
+}
