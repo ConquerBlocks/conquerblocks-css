@@ -1,0 +1,143 @@
+/* Ejemplo 1 */
+
+ul.example1 {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  list-style: none;
+  width: 300px;
+  color: #4e4e4e;
+}
+
+ul.example1 li{
+  padding: 10px 20px;
+}
+
+ul.example1 li+li {
+  border-top: 1px solid #e6e6e6;
+}
+
+ul.example1 a {
+  color: #4e4e4e;
+  text-decoration: none;
+}
+
+
+/* Ejemplo 2 */
+
+ul.example2 {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  list-style: none;
+  width: 280px;
+  color: #4e4e4e;
+  border: 1px solid #e6e6e6;
+  border-radius:3px;
+  overflow: hidden;
+}
+
+ul.example2 li.active a{
+    background-color: #3579F6;
+    color: white;
+}
+
+ul.example2 li:hover {
+}
+
+ul.example2 li+li {
+  border-top: 1px solid #e6e6e6;
+}
+
+ul.example2 a {
+  color: #4e4e4e;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+}
+
+ul.example2 a:hover {
+    background-color: #3579F6;
+    color: white;
+}
+
+/* Ejemplo 3 */
+
+ul.example3 {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  list-style: none;
+  width: 270px;
+  color: #4e4e4e;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+ul.example3 li {
+  position: relative;
+}
+
+ul.example3 li+li {
+  border-top: 1px solid #e6e6e6;
+}
+
+ul.example3 a {
+  padding: 10px 20px;
+  display: block;
+  color: #4e4e4e;
+  text-decoration: none;
+}
+
+ul.example3 a span {
+  position: absolute;
+  right: 10px;
+  font-size: 8px;
+  display: inline-block;
+  padding: 2px 5px;
+  background-color: #3579F6;
+  color: white;
+  border-radius: 25px;
+  font-weight: 500;
+}
+
+ul.example3 li:hover a{
+  background-color: #3579F6;
+  color: white;
+}
+
+ul.example3 li:hover a span {
+  background-color: white;
+    color: #3579F6;
+}
+
+/* Ejemplo 4 */
+
+ul.example4 {
+  list-style-image: url('../img/icons8-diabetes-16.png');
+}
+
+/* Ejemplo 5 */
+
+ul.example5 {
+  counter-reset: step-counter;
+  list-style: none;
+}
+
+ul.example5 li::before {
+  counter-increment: step-counter;
+  content: counter(step-counter);
+  background-color: black;
+  padding: 2px;
+  font-size: 8px;
+  color: white;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  text-align: center;
+}
