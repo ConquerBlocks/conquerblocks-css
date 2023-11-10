@@ -1,6 +1,6 @@
-<h1>Máster en Desarrollo FullStack y Blockchain de ConquerBlocks</h1>
+<h1>Máster en Desarrollo FullStack</h1>
 
-<h2>Repositorio creado para el módulo de CSS para Máster de Desarrollo FullStack y Blockchain de ConquerBlocks</h2>
+<h2>Repositorio creado para el módulo de CSS para Máster de Desarrollo FullStack</h2>
 
 <img width="450px" src="00_indice_modulo/portada.jpg" alt="Portada del módulo de CSS" />
 
