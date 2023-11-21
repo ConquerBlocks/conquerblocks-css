@@ -1,16 +1,14 @@
+@charset "UTF-8";
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
-
 /* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
-
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
 html {
   color: #222;
   font-size: 1em;
@@ -23,7 +21,6 @@ html {
  *
  * Customize the background color to match your design.
  */
-
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -37,7 +34,6 @@ html {
 /*
  * A better looking default horizontal rule
  */
-
 hr {
   display: block;
   height: 1px;
@@ -52,7 +48,6 @@ hr {
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
-
 audio,
 canvas,
 iframe,
@@ -65,7 +60,6 @@ video {
 /*
  * Remove default fieldset styles.
  */
-
 fieldset {
   border: 0;
   margin: 0;
@@ -75,7 +69,6 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-
 textarea {
   resize: vertical;
 }
@@ -83,15 +76,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-
 /*
  * Hide visually and from screen readers
  */
-
 .hidden,
 [hidden] {
   display: none !important;
@@ -105,7 +95,6 @@ textarea {
  *    causes content to wrap 1 word per line:
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
-
 .visually-hidden {
   border: 0;
   clip: rect(0, 0, 0, 0);
@@ -124,7 +113,6 @@ textarea {
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
-
 .visually-hidden.focusable:active,
 .visually-hidden.focusable:focus {
   clip: auto;
@@ -139,7 +127,6 @@ textarea {
 /*
  * Hide visually and from screen readers, but maintain layout
  */
-
 .invisible {
   visibility: hidden;
 }
@@ -150,7 +137,6 @@ textarea {
  * The use of `table` rather than `block` is only necessary if using
  * `::before` to contain the top-margins of child elements.
  */
-
 .clearfix::before,
 .clearfix::after {
   content: "";
@@ -166,24 +152,17 @@ textarea {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 }
-
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
-
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
-
 @media print {
   *,
   *::before,
@@ -194,20 +173,16 @@ textarea {
     box-shadow: none !important;
     text-shadow: none !important;
   }
-
   a,
   a:visited {
     text-decoration: underline;
   }
-
   a[href]::after {
     content: " (" attr(href) ")";
   }
-
   abbr[title]::after {
     content: " (" attr(title) ")";
   }
-
   /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
@@ -216,217 +191,251 @@ textarea {
   a[href^="javascript:"]::after {
     content: "";
   }
-
   pre {
     white-space: pre-wrap !important;
   }
-
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
-
   tr,
   img {
     page-break-inside: avoid;
   }
-
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3;
   }
-
   h2,
   h3 {
     page-break-after: avoid;
   }
 }
-
-
-
-
 /*
 * Aquí empieza el proyecto
 */
-:root {
-  --primary-font: 'Poppins', sans-serif;
-  --secondary-font: 'Playfair Display',
-    serif;
-  --black: #313131;--black: #313131;
-  --brown: #9B9A78;
-  --max-width-page: 1400px;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: var(--primary-font);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+}
+body::before {
+  content: "";
+  width: 42%;
+  background-color: #2e2f38;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
 }
 
 .container {
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  max-width: var(--max-width-page);
-  padding-left: 16px;
-  padding-right: 16px;
-  box-sizing: border-box;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-header.header {
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+header a {
+  text-decoration: none;
 }
 
-.navPrincipal ul{
-  padding: 0;
-  margin: 0;
+.principal-nav {
+  margin-left: 130px;
+}
+.principal-nav ul {
   list-style: none;
   display: flex;
-  gap: 50px;
+  gap: 46px;
+}
+.principal-nav ul a {
+  color: #2e2f38;
+  font-weight: 300;
 }
 
-.navPrincipal a {
-  color: var(--black);
-  text-decoration: none;
+.login {
+  margin-left: auto;
 }
-
-.navPrincipal a:hover {
-  color: var(--brown);
-}
-
-.navPrincipal a.active {
-  color: var(--brown);
-}
-
 .login ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 50px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 27px;
 }
-
-.login a {
-  color: var(--black);
+.login ul a {
+  color: white;
+  font-weight: 300;
+}
+.login .btn {
+  display: inline-block;
+  background-color: #fa504d;
+  padding: 8px 30px;
+  color: white;
   text-decoration: none;
 }
-
-a.button {
-  display: inline-block;
-  background-color: var(--brown);
-  color: white;
-  padding: 14px 30px;
-  transition: all .5s ease;
+.login .btn:hover {
+  background-color: #fa4f4c;
 }
 
-a.button:hover {
-  background-color: var(--black);
+main {
+  display: grid;
+  grid-template-columns: 60% 40%;
 }
 
-section.hero {
-  display: flex;
-  justify-content: flex-end;
-  background-image: url('../img/hero-background.jpg');
-  background-repeat: no-repeat;
-  background-size: 60%;
-  padding-top: 60px;
-  padding-bottom: 60px;
+.hero {
+  grid-column: 1/span 1;
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+.hero h1 {
+  font-family: "Belgrano", serif;
+  font-size: 55px;
+  line-height: 65px;
+  font-weight: 400;
+  padding-right: 40px;
   margin-bottom: 30px;
-
 }
-
-.hero__content {
-  width: 50%;
-  box-sizing: border-box;
+.hero__subtitle {
+  color: #8e8e8e;
+  font-weight: 300;
+  font-size: 20px;
   margin-bottom: 20px;
 }
-
-.hero__header {
-  background: rgba(255, 255, 255, 0.70);
-  backdrop-filter: blur(8px);
-  padding: 35px;
+.hero__buttons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
-
-.hero h1 {
-  font-family: var(--secondary-font);
-  font-size: 48px;
-  line-height: 55px;
-  max-width: 500px;
-  margin:0;
-  position: relative;
+.hero__buttons a.btn {
+  display: inline-block;
+  background-color: #fa504d;
+  padding: 8px 30px;
+  color: white;
+  text-decoration: none;
+  padding: 12px 60px;
 }
-
-.hero h1::before{
-  content: '';
-  height: 8px;
-  width: 72px;
-  position: absolute;
-  background-color: var(--brown);
-  right: 0;
-  top: 22px;
+.hero__buttons a.btn:hover {
+  background-color: #fa4f4c;
 }
-
-.hero__header p {
-  font-size: 18px;
+.hero__buttons a:last-child {
   font-weight: 300;
-  color: var(--brown);
+  color: #2e2f38;
 }
 
-.hero__list {
-
+.featured {
+  grid-column: 1/span 1;
+  padding-right: 40px;
 }
-
-.hero__list ul{
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  width: 60%;
-  margin-left: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 10px;
+.featured__title {
+  font-family: "Belgrano", serif;
+  margin-bottom: 20px;
 }
-
-.hero__list ul li {
-  font-weight: 300;
-  background-image: url('../img/icon-list-item.svg');
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: 20px;
-  padding-left: 30px;
-}
-
-.coworking-info {
+.featured__imgs {
   display: flex;
   justify-content: space-between;
-  gap: 224px;
-  padding-left: 96px;
-  padding-right: 96px;
+}
+.featured__imgs img {
+  width: 48%;
+  border: 1px solid #8e8e8e;
+  padding: 4px;
 }
 
-.coworking-info img {
-  width: 60px;
-  margin-bottom: 10px;
+.nft {
+  grid-column: 2/span 1;
+  grid-row: 1/span 2;
+  padding-left: 30px;
+  padding-right: 30px;
 }
-
-.coworking-info h3 {
-  margin: 0;
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 10px;
+.nft__imagecontainer img {
+  max-width: 100%;
 }
-
-.coworking-info p {
+.nft__data {
+  background-color: white;
+  padding: 16px;
+  margin-top: -30px;
+  position: relative;
+  margin-bottom: 40px;
+}
+.nft__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+.nft__owner {
+  display: flex;
+}
+.nft__owner-data {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nft__username {
+  color: #8e8e8e;
   font-weight: 300;
-  color: var(--brown);
-  margin: 0;
 }
+.nft__name {
+  font-weight: bold;
+}
+.nft__price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nft__price-current {
+  color: #8e8e8e;
+}
+.nft__price-number {
+  font-weight: bold;
+  font-size: 20px;
+}
+.nft__buttons {
+  justify-content: space-between;
+  display: flex;
+}
+.nft__buttons > a.btn {
+  display: inline-block;
+  background-color: #fa504d;
+  padding: 8px 30px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 40px;
+}
+.nft__buttons > a.btn:hover {
+  background-color: #fa4f4c;
+}
+.nft__buttons > a.btn:last-child {
+  background-color: transparent;
+  color: red;
+}
+.nft__numbers {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+}
+.nft__number {
+  color: #fa504d;
+  font-size: 24px;
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */
