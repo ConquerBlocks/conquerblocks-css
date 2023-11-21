@@ -51,10 +51,14 @@
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2031%20-%20Responsive%20Web%20Design/CSS%20Clase%2031%20-%20Responsive%20Web%20Design.pdf">Clase 31 - Responsive Web Design</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2032%20-%20Variables%20en%20CSS/CSS%20Clase%2032%20-%20Variables%20en%20CSS.pdf">Clase 32 - Variables en CSS</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2033%20-%20Transformaciones%20en%20CSS/CSS%20Clase%2033%20-%20Transformaciones%20en%20CSS.pdf">Clase 33 - Transformaciones en CSS</a></li>
+    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2034%20-%20Animaciones%20en%20CSS/CSS%20Clase%2034%20-%20Animaciones%20en%20CSS.pdf">Clase 34 - Animaciones en CSS</a></li>
+    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/01_clases/Clase%2035%20-%20Preprocesadores%20CSS%20-%20SASS/CSS%20Clase%2035%20-%20Preprocesadores%20de%20CSS.pdf">Clase 35 - Preprocesadores en CSS (SASS)</a></li>
 </ul>
 
 <h4>Proyectos CSS</h4>
 <ul>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/02_proyectos/CSS%20Proyectos%2001%20-%20Figma%20para%20desarrolladores/CSS%20Proyectos%2001%20-%20Figma%20para%20desarrolladores.pdf">CSS Proyectos 01 - Figma para desarrolladores</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/02_proyectos/CSS%20Proyectos%2002%20-%20Header%20Business%20Agency/CSS%20Proyectos%2002%20-%20Header%20Business%20Agency.pdf">CSS Proyectos 02 - Header Business Agency</a></li>
+    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/02_proyectos/CSS%20Proyectos%2003%20-%20Creative%20Agency/CSS%20Proyectos%2003%20-%20Creative%20Agency.pdf">CSS Proyectos 03 - Creative Agency</a></li>
+    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-css/blob/master/02_proyectos/CSS%20Proyectos%2004%20-%20Coworking%20Space/CSS%20Proyectos%2004%20-%20Coworking%20Space.pdf">CSS Proyectos 04 - Coworking Space</a></li>
 </ul>
