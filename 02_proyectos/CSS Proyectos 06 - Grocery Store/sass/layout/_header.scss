@@ -1,0 +1,18 @@
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .header__login {
+    ul {
+      @include reset-list();
+      gap: 35px;
+      .cart {
+        img {
+          width: 25px;
+        }
+      }
+    }
+  }
+}
