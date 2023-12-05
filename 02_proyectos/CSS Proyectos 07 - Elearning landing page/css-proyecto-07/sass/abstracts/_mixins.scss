@@ -37,16 +37,38 @@
   background-color: $bg-color;
   text-decoration: none;
   border-radius: 28px;
+  &:hover {
+    background-color: #666ca3;
+  }
 }
 
 @mixin button--pink-orange() {
   @include button();
   background-image: $gradient-pink-orange;
+  &:hover {
+    background: var(
+      --Gradient-1-Hover,
+      linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.5) 0%,
+        rgba(255, 255, 255, 0.5) 100%
+      ),
+      linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%)
+    );
+  }
 }
 
 @mixin button--pink-blue() {
   @include button();
   background-image: $gradient-pink-blue;
+  &:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.5) 0%,
+        rgba(255, 255, 255, 0.5) 100%
+      ),
+      linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%) !important;
+  }
 }
 
 @mixin button-link() {

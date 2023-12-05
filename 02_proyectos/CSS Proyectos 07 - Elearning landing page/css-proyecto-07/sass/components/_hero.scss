@@ -1,5 +1,9 @@
 .hero {
   margin-bottom: 40px;
+  @include breakpoint(tablethorizontal) {
+    margin-bottom: 80px;
+  }
+
   &__title {
     margin-bottom: 26px;
     font-size: 40px;
@@ -22,6 +26,16 @@
     width: 80%;
     margin-left: 10%;
     position: relative;
+    @include breakpoint(tablet) {
+      width: 50%;
+      margin: 0;
+    }
+    @include breakpoint(tablethorizontal) {
+      height: 500px;
+    }
+    @include breakpoint(desktop) {
+      width: 400px;
+    }
   }
 
   &__number {
@@ -55,6 +69,15 @@
       top: 0;
       right: 0;
       position: absolute;
+      @include breakpoint(tablet) {
+        top: -33px;
+      }
+      @include breakpoint(tablethorizontal) {
+        top: 64px;
+      }
+      @include breakpoint(desktop) {
+        right: 55px;
+      }
     }
 
     &-2 {
@@ -62,6 +85,47 @@
       bottom: 0;
       left: 0;
       position: absolute;
+      @include breakpoint(tablet) {
+        bottom: -34px;
+        left: 34px;
+      }
+      @include breakpoint(desktop) {
+        bottom: 154px;
+        left: -53px;
+      }
+    }
+  }
+
+  &__img-mobile {
+    @include breakpoint(tablet) {
+      display: none;
+    }
+  }
+
+  .container {
+    @include breakpoint(tablet) {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 80px;
+    }
+    @include breakpoint(tablethorizontal) {
+      padding-bottom: 100px;
+      align-items: center;
+    }
+    @include breakpoint(desktop) {
+      padding-bottom: 10px;
+    }
+  }
+
+  &__content {
+    @include breakpoint(tablet) {
+      width: 50%;
+    }
+    @include breakpoint(tablethorizontal) {
+      width: 40%;
+    }
+    @include breakpoint(desktop) {
+      max-width: 440px;
     }
   }
 }

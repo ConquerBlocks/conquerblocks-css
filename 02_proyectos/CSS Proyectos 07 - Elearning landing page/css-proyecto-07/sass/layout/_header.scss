@@ -10,4 +10,10 @@ header.header-principal {
   ul {
     @include reset-list();
   }
+  @include breakpoint(tablethorizontal) {
+    margin-bottom: 80px;
+  }
+  @include breakpoint(desktop) {
+    margin-bottom: 20px;
+  }
 }
