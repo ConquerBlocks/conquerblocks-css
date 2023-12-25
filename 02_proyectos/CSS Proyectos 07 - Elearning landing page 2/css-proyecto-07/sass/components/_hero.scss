@@ -1,0 +1,67 @@
+.hero {
+  margin-bottom: 40px;
+  &__title {
+    margin-bottom: 26px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 51px;
+  }
+
+  &__subtitle {
+    margin-bottom: 26px;
+    color: $grey;
+    line-height: 26px;
+  }
+
+  &__buttons {
+    margin-bottom: 40px;
+  }
+
+  &__img {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+  }
+
+  &__number {
+    display: inline-block;
+    width: max-content;
+    background-color: white;
+    color: $black;
+    padding: 5px;
+    gap: 10px;
+    text-align: left;
+    position: absolute;
+    border-radius: 1rem;
+    box-shadow: 0 5px 10px #ccc;
+    span {
+      display: block;
+    }
+
+    &-title {
+      font-size: 14px;
+      color: $grey;
+    }
+
+    &-number {
+      color: $black;
+      font-size: 32px;
+      font-weight: 700;
+    }
+
+    &-1 {
+      padding: 16px 20px 16px 20px;
+      top: 0;
+      right: 0;
+      position: absolute;
+    }
+
+    &-2 {
+      padding: 16px 45px 16px 20px;
+      bottom: 0;
+      left: 0;
+      position: absolute;
+    }
+  }
+}
