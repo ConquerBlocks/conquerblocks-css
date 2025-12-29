@@ -158,8 +158,8 @@ div.ejercicio07 {
   width: 450px;
   display: grid;
   gap: 1px;
-  grid-template-areas: 'header header'
-                       'main main'
+  grid-template-areas: '. header'
+                       'sidebar main'
                        'footer footer';
 }
 
